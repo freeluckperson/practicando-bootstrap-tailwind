@@ -1,11 +1,13 @@
 import React from "react";
-import { MyNavbar } from "./components/index.js";
+import { MyNavbar, MainCarousel, Ribbon } from "./components/index.js";
 
 const App = () => {
   return (
-    <>
+    <div>
       <MyNavbar />
-    </>
+      <MainCarousel />
+      <Ribbon />
+    </div>
   );
 };
 
