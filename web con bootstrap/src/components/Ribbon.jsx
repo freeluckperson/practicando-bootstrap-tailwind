@@ -19,22 +19,25 @@ const Ribbon = () => {
   //     </div>
   //   </div>
   // );
-  return(
+  return (
     <div id={ribbon}>
-    <div id={birthday} className="container w-50 pl-5 pr-5 rounded">
-      
-      <div className="row align-items-center">
-        <div className="col-sm col-sm p-3" id="description">
-          <img src={imag} className="w-75 mx-auto d-block" alt="..."/>
-        </div>
-        
-        <div className="col-sm p-3 text-light text-center">
-          <p className="text-warning h3">Today is</p>
-          <h4 className="h2 text-shadow">Samson's Birthday</h4>
+      <div id={birthday} className="container w-50 pl-5 pr-5 rounded">
+
+        <div className="row align-items-center">
+          <div className="col-sm col-sm p-3" id="description">
+            <img src={imag} className="w-75 mx-auto d-block" alt="..." />
+          </div>
+
+          <div className="col-sm p-3 text-light text-center">
+            <p className="text-warning h3">Today is</p>
+            <h4 className="h2 text-shadow">Samson's Birthday</h4>
+          </div>
         </div>
       </div>
+      <div className='h-6' id='separador-ribbon'>
+        <div className='content h-25 bg-warning'>5</div>
+      </div>
     </div>
-</div>
   )
 };
 

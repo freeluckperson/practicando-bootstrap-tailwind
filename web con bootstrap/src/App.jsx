@@ -1,5 +1,5 @@
 import React from "react";
-import { MyNavbar, MainCarousel, Ribbon } from "./components/index.js";
+import { MyNavbar, MainCarousel, Ribbon, Separador } from "./components/index.js";
 
 const App = () => {
   return (
@@ -7,6 +7,7 @@ const App = () => {
       <MyNavbar />
       <MainCarousel />
       <Ribbon />
+      {/* <Separador /> */}
     </div>
   );
 };
